@@ -18,4 +18,18 @@ only add operation; no purge of log
 * Phase 4.2 (up to a grade of A with honors): Evaluation of TSAE protocol
 
 ## Setup
+While the original exercise was meant to be run under Linux (only a shell script was provided), I've adapted the project to be ru under Windows. This exercise was completed using Eclipse IDE under Windows 10 v1909. The applications used are:
+* Java JDK 1.8.0_251-b08, 64-bits.
+* Eclipse Neon 3 v4.6.3, Java Developers edition.
+* “C/C++ Remote (over TCF/TE) Run/Debug Launcher” Eclipse plugin, ver. 1.4.0.
 
+Eclipse is used for creating configurations for the components of each phase, with the required arguments:
+![](pics/image01.jpg)
+
+The Remote plugin is used for managing the launch sequences for the components for each phases:
+![](pics/image02.jpg)
+
+The launch sequences appear under the "Run" menu. The main advantage of using Eclipse, instead of directly running the script from the command prompt, is that the code can be paused and easily debugged.
+![](pics/image03.jpg)
+
+There's a full copy of the Eclipse workspace inside the Phase 4.1 folder.
